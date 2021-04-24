@@ -4,9 +4,6 @@
 
 This project involves working with Python requests, API’s, JSON, and visualization techniques to demonstrate weather patterns around the world, as well as select vacation spots based on certain criteria. 
 
-![Equator](Images/equatorsign.png)
-
-
 ## WeatherPy
 
 This activity included creating a Python script to visualize 500+ cities across the world of varying distances from the equator. 
@@ -29,13 +26,21 @@ These plots were then separated into Northern and Southern Hemispheres with line
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
-###  VacationPy
+### Observable Trends (and why they are occurring)
+
+* The visualizations indicate that the temperature and latitude are correlated – as we get closer to the equator, temperature rises. This matches expected outcomes as the sun is shining more directly at this area of the globe resulting in warmer weather at the equator. 
+
+* The graphs of latitude versus humidity indicate that on the selected day, the majority of cities had about 50% humidity. The northern and southern hemispheres graphs indicate that within these locations, there is a mild positive correlation between latitude and humidity.
+ 
+* The visualizations comparing latitude and windspeed indicate that on this day across the globe, windspeed remained below 15 mph in most locations. 
+
+####  VacationPy
 
 This portion of the activity involved using the weather data collected from WeatherPy, gmaps, and the Google Places API to plan future vacations
 
 To start, a heat map was created that displays the humidity for every city from WeatherPy
 
-  ![heatmap](Images/heatmap.png)
+  ![heatmap](Images/heat_map.png)
 
 The DataFrame was then narrowed down to include only cities meeting the following weather conditions: 
 
