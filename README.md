@@ -40,7 +40,7 @@ This portion of the activity involved using the weather data collected from Weat
 
 To start, a heat map was created that displays the humidity for every city from WeatherPy
 
-  !(Images/heat_map.png)
+  ![heatmap](VacationPy/Images/heat_map.png)
 
 The DataFrame was then narrowed down to include only cities meeting the following weather conditions: 
 
@@ -52,7 +52,7 @@ The DataFrame was then narrowed down to include only cities meeting the followin
 
 The Google Places API was then used to find the first hotel for each city located within 5000 meters. These hotels were then placed on top of the humidity heatmap with each pin containing the hotel name, city, and country. 
 
-  !(Images/hotel_map.png)
+  ![hotelmap](VacationPy/Images/hotel_map.png)
 
 * For Part I, you must include a written description of three observable trends based on the data.
 * For Part II, you must include a screenshot of the heatmap you create and include it in your submission.
