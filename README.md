@@ -26,7 +26,7 @@ These plots were then separated into Northern and Southern Hemispheres with line
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
-### Observable Trends (and why they are occurring)
+#### Observable Trends
 
 * The visualizations indicate that the temperature and latitude are correlated – as we get closer to the equator, temperature rises. This matches expected outcomes as the sun is shining more directly at this area of the globe resulting in warmer weather at the equator. 
 
@@ -34,13 +34,13 @@ These plots were then separated into Northern and Southern Hemispheres with line
  
 * The visualizations comparing latitude and windspeed indicate that on this day across the globe, windspeed remained below 15 mph in most locations. 
 
-####  VacationPy
+##  VacationPy
 
 This portion of the activity involved using the weather data collected from WeatherPy, gmaps, and the Google Places API to plan future vacations
 
 To start, a heat map was created that displays the humidity for every city from WeatherPy
 
-  ![heatmap](Images/heat_map.png)
+  !(Images/heat_map.png)
 
 The DataFrame was then narrowed down to include only cities meeting the following weather conditions: 
 
@@ -52,7 +52,7 @@ The DataFrame was then narrowed down to include only cities meeting the followin
 
 The Google Places API was then used to find the first hotel for each city located within 5000 meters. These hotels were then placed on top of the humidity heatmap with each pin containing the hotel name, city, and country. 
 
-  ![hotel map](Images/hotel_map.png)
+  !(Images/hotel_map.png)
 
 * For Part I, you must include a written description of three observable trends based on the data.
 * For Part II, you must include a screenshot of the heatmap you create and include it in your submission.
