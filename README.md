@@ -54,9 +54,6 @@ The Google Places API was then used to find the first hotel for each city locate
 
   ![hotelmap](VacationPy/Images/hotel_map.png)
 
-* For Part I, you must include a written description of three observable trends based on the data.
-* For Part II, you must include a screenshot of the heatmap you create and include it in your submission.
-
 ### Copyright
 
 Trilogy Education Services © 2020. All Rights Reserved.
